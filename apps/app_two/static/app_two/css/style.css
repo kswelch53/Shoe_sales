@@ -1,0 +1,32 @@
+a{
+  margin-left: 15%;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.header{
+  display: block;
+}
+
+.one_line{
+  display: inline-block;
+}
+
+table{
+  border-collapse: collapse;
+  width: 60%;
+}
+
+/*zebra striping for table rows*/
+tbody tr:nth-child(even){
+  background-color: lavender;
+}
+tbody tr:nth-child(odd){
+  background-color: beige;
+}
+
+p td{
+  margin-left: 20px;
+}
